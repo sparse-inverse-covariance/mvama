@@ -1,0 +1,12 @@
+Package: mvama
+Type: Package
+Title: Multivariate analysis of microarrays
+Version: 1.0
+Date: 2011-01-19
+Author: Harri Kiiveri
+Maintainer:  <harri.kiiveri@csiro.au>
+Description: For analysing gene expression in the context of a gene network. 
+License: GPL (>=2)
+Depends: R (>= 2.12.0), Matrix, igraph 
+LazyLoad: yes
+Packaged: 2011-02-02 09:53:36 UTC; kii002
