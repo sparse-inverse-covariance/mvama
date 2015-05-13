@@ -23,7 +23,7 @@ sigma.inv[i,i]<-1/(sum(R[,i]^2)/n)
 }
 }
 if(symmetric){sigma.inv<-(sigma.inv+t(sigma.inv))/2   # change class to symmetric 
-sigma.inv<-as(sigma.inv,"symmetricMatrix")}
+sigma.inv <-forceSymmetric(sigma.inv) 
 sigma.inv
 }
 
