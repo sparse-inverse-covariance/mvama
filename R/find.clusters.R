@@ -12,7 +12,7 @@ find.clusters <-
     #create subgraphs of each cluster
     clust<-list()
     for(i in 1:res$no){
-        clust[[i]]<-subgraph(f,(which(res[[1]]==i-1)))
+        clust[[i]]<-subgraph(f,(which(res[[1]]==i)))
     }
     list(gs=f,clust.list=clust,csize=res$csize,cno=res$no)
 }
